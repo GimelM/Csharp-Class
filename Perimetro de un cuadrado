@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
+
+namespace HelloWorld
+{
+	public class Program
+	{
+		public static void Main(string[] args)
+		{
+		  int lado, perimetro;
+		  string captura;
+			Console.WriteLine("Ingrese dimension de lados");
+			captura = Console.ReadLine();
+			lado = int.Parse(captura);
+			perimetro = lado * 4;
+			Console.WriteLine("El perimetro es:");
+			Console.WriteLine(perimetro);
+			Console.ReadKey();
+		}
+	}
+}
